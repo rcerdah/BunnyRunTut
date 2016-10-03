@@ -217,8 +217,79 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefavToSpawn: {fileID: 4000010283131138, guid: e355ec824d5f3f64790e1b262ceeeeea,
     type: 2}
-  spawnRate: 1
-  randomDelay: 2
+  spawnCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.00046923757
+      value: 2.003901
+      inSlope: -0.26232225
+      outSlope: -0.26232225
+      tangentMode: 0
+    - time: 0.09818263
+      value: 1.759976
+      inSlope: -0.83335936
+      outSlope: -0.83335936
+      tangentMode: 0
+    - time: 0.22136375
+      value: 1.4010975
+      inSlope: -6.5088124
+      outSlope: -6.5088124
+      tangentMode: 0
+    - time: 0.28120407
+      value: 1.8186134
+      inSlope: 1.509635
+      outSlope: 1.509635
+      tangentMode: 0
+    - time: 0.34373885
+      value: 1.1370665
+      inSlope: -0.6950147
+      outSlope: -0.6950147
+      tangentMode: 0
+    - time: 0.4267291
+      value: 1.3605518
+      inSlope: -3.911447
+      outSlope: -3.911447
+      tangentMode: 0
+    - time: 0.5214744
+      value: 1.0463454
+      inSlope: 0.31792665
+      outSlope: 0.31792665
+      tangentMode: 0
+    - time: 0.5694065
+      value: 1.1882305
+      inSlope: -0.9230695
+      outSlope: -0.9230695
+      tangentMode: 0
+    - time: 0.6426248
+      value: 0.9971285
+      inSlope: 0.2369703
+      outSlope: 0.2369703
+      tangentMode: 0
+    - time: 0.69826937
+      value: 1.2877195
+      inSlope: 0.16569889
+      outSlope: 0.16569889
+      tangentMode: 0
+    - time: 0.80141836
+      value: 1.1279625
+      inSlope: 4.117609
+      outSlope: 4.117609
+      tangentMode: 0
+    - time: 0.9201558
+      value: 1.4438138
+      inSlope: -2.0310123
+      outSlope: -2.0310123
+      tangentMode: 0
+    - time: 1.0006425
+      value: 2.001353
+      inSlope: 3.5616274
+      outSlope: 3.5616274
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curveLengthInSeconds: 30
+  jitter: 0.25
 --- !u!4 &95668864
 Transform:
   m_ObjectHideFlags: 0
